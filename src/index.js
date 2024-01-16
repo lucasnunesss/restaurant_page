@@ -68,7 +68,7 @@ function artigo1(){
   article1.appendChild(blockQuote)
   blockQuote.textContent = 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate assumenda ratione quod, ipsam aliquid autem fugiat repudiandae necessitatibus aut consequatur! ';
   article1.appendChild(cite)
-  cite.textContent = ' Aaalbert Einstein'
+  cite.textContent = ' Albert Einstein'
 }
 
 function artigo2() {
