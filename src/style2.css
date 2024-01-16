@@ -1,0 +1,17 @@
+.head-h1{
+  background-color: rgb(107, 86, 60);
+  width: 30%;
+  margin: 1em auto auto auto;
+  border-radius: 20px;
+  padding: 10px;
+  font-size: 3em;
+  font-family: 'Potta One', system-ui;
+}
+
+.head-h2{
+  font-size: 2em;
+  font-family: 'Potta One', system-ui;
+  border-radius: 20px;
+  font-weight: 100;
+  margin: 2em auto auto auto;
+}

@@ -1,0 +1,154 @@
+@import url(https://fonts.googleapis.com/css2?family=Anton&family=DM+Sans:ital,opsz,wght@0,9..40,100;0,9..40,200;0,9..40,300;0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,700;0,9..40,800;0,9..40,900;0,9..40,1000;1,9..40,100;1,9..40,200;1,9..40,300;1,9..40,400;1,9..40,500;1,9..40,600;1,9..40,700;1,9..40,800;1,9..40,900;1,9..40,1000&family=Lato:wght@100&family=Libre+Baskerville:ital@0;1&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Nunito+Sans:ital,opsz,wght@0,6..12,200;0,6..12,300;0,6..12,400;0,6..12,500;0,6..12,600;0,6..12,700;0,6..12,800;0,6..12,900;0,6..12,1000;1,6..12,200;1,6..12,300;1,6..12,400;1,6..12,500;1,6..12,600;1,6..12,700;1,6..12,800;1,6..12,900;1,6..12,1000&family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&family=Passion+One:wght@400;700;900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Potta+One&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Rubik+Doodle+Shadow&family=Rubik+Scribble&family=Sriracha&family=Work+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap);
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+}
+
+
+body{
+  background-color: burlywood;
+}
+
+header{
+ text-align: center;
+ border: 1px solid black;
+}
+
+
+header > ul > li{
+  display: inline-block;
+  margin-top: 3em;
+  width: 10%;
+  border: 1px solid black;
+  background-color: rgb(107, 89, 65);
+}
+
+header > ul > li:hover{
+  background-color: rgb(157, 146, 133)
+}
+
+main{
+ text-align: center;
+}
+
+ h1{
+  background-color: rgb(107, 86, 60);
+  width: 500px;
+
+  margin: 1em auto auto auto;
+  border-radius: 20px;
+  padding: 10px;
+  font-size: 3em;
+  font-family: 'Potta One', system-ui;
+}
+
+.art1{
+  background-color: rgb(157, 146, 133);
+  width: 500px;
+  margin: 1em auto auto auto;
+  border-radius: 50px;
+  padding: 3em;
+ font-size: 1.1em;
+  border: 1px solid black;
+}
+
+.art1 > cite{
+  font-weight: 900;
+}
+
+.art1 > h2{
+  text-align: start;
+}
+
+.art1 > ul > li{
+  list-style-type: none;
+}
+
+
+.pointer{
+  cursor: pointer;
+}
+
+
+
+.esconder {
+  display: none;
+}
+
+.editImg {
+ 
+}
+
+.addFlex{
+  display: flex;
+  flex-direction: column;
+
+}
+
+
+
+.img{
+  width: 100%;
+}
+
+.addGrid{
+  display: grid;
+  grid-template-columns: 300px;
+  padding: 5em;
+  justify-content: center;
+}
+
+.img1{
+  grid-column: 2;
+  max-width: 100px;
+  grid-row: 1 /8;
+ width: max-content;
+}
+
+.gridItem{
+  grid-column: 1 ;
+  text-align: start;
+  font-weight: 300;
+  width: max-content;
+
+}
+
+.addGrid > h2{
+ font-weight: 900;
+}
+
+footer{
+  background-color: rgb(86, 62, 11);
+  margin-top: 2em;
+  padding: 5px;
+  font-size: 1.2em;
+  color: white;
+  font-weight: 900;
+  text-align: center;
+}
+
+footer:hover{
+  color: red;
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+.head-h1{
+  background-color: rgb(107, 86, 60);
+  width: 30%;
+  margin: 1em auto auto auto;
+  border-radius: 20px;
+  padding: 10px;
+  font-size: 3em;
+  font-family: 'Potta One', system-ui;
+}
+
+.head-h2{
+  font-size: 2em;
+  font-family: 'Potta One', system-ui;
+  border-radius: 20px;
+  font-weight: 100;
+  margin: 2em auto auto auto;
+}
